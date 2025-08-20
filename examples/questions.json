@@ -1,0 +1,87 @@
+{
+  "categories": {
+    "general": {
+      "name": "כללי",
+      "description": "שאלות טכנולוגיות כלליות"
+    },
+    "programming": {
+      "name": "תכנות",
+      "description": "שאלות על שפות תכנות ופיתוח"
+    },
+    "hardware": {
+      "name": "חומרה",
+      "description": "שאלות על רכיבי מחשב וחומרה"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "general",
+      "difficulty": "easy",
+      "question": "איזו חברה ייצרה את מערכת ההפעלה Windows?",
+      "answers": ["Apple", "Microsoft", "Google", "IBM"],
+      "correct": "Microsoft",
+      "explanation": "Microsoft פיתחה את Windows בשנת 1985 כמערכת הפעלה גרפית",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "category": "programming",
+      "difficulty": "medium",
+      "question": "מה משמעות ראשי התיבות HTML?",
+      "answers": [
+        "Hyper Text Markup Language",
+        "High Tech Machine Learning",
+        "Hyper Transfer Main Logic",
+        "Hyper Tool Multi Language"
+      ],
+      "correct": "Hyper Text Markup Language",
+      "explanation": "HTML היא שפת סימון המשמשת ליצירת דפי אינטרנט",
+      "points": 15
+    },
+    {
+      "id": 3,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "מהו ה-CPU במחשב?",
+      "answers": ["כרטיס מסך", "זיכרון", "מעבד", "כונן קשיח"],
+      "correct": "מעבד",
+      "explanation": "CPU (Central Processing Unit) הוא המעבד המרכזי של המחשב",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "category": "programming",
+      "difficulty": "hard",
+      "question": "איזו שפת תכנות פותחה על ידי Guido van Rossum?",
+      "answers": ["Java", "Python", "C++", "Ruby"],
+      "correct": "Python",
+      "explanation": "Python פותחה על ידי Guido van Rossum ופורסמה לראשונה ב-1991",
+      "points": 20
+    },
+    {
+      "id": 5,
+      "category": "general",
+      "difficulty": "medium",
+      "question": "מהו פרוטוקול HTTPS?",
+      "answers": [
+        "Hyper Text Transfer Protocol Secure",
+        "High Technology Transfer Protocol",
+        "Hyper Text Transport Protocol Safe",
+        "High Tech Transfer Protocol Secure"
+      ],
+      "correct": "Hyper Text Transfer Protocol Secure",
+      "explanation": "HTTPS הוא גרסה מאובטחת של HTTP המשתמשת בהצפנה",
+      "points": 15
+    }
+  ],
+  "settings": {
+    "defaultTimer": 30,
+    "pointsMultiplier": {
+      "easy": 1,
+      "medium": 1.5,
+      "hard": 2
+    },
+    "passingScore": 60
+  }
+}
